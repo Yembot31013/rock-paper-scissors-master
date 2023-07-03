@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-content">
+        <img src="images/logo.svg" alt="Logo" class="logo">
+        <div class="header-score">
+          <div class="score-text">SCORE</div>
+          <div class="score-number"></div>
+        </div>
+      </div>
+    </div>
+    <div class="contain">
+      <div class="main">
+        <div class="main-contain">
+          <div class="triangle-img">
+            <img src="images/bg-triangle.svg" alt="Triangle Angle" class="triangle">
+          </div>
+          <div class="main-icons">
+            <div class="paper" id="paper">
+              <img src="images/icon-paper.svg" alt="Paper Icon" class="paper-img">
+            </div>
+            <div class="scissor" id="scissor">
+              <img src="images/icon-scissors.svg" alt="Scissors Icon" class="scissor-img">
+            </div>
+            <div class="rock" id="rock">
+              <img src="images/icon-rock.svg" alt="Rock Icon" class="rock-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-choose hide">
+        <div class="user-contain">
+          <div class="user-text">YOU PICKED</div>
+          <div class="user-container" id="user">
+            <div class="user-empty"></div>
+            <div class="user-img-contain" id="user-img-contain">
+              <!-- <img src="images/icon-scissors.svg" alt="" class="user-img"> -->
+            </div>
+          </div>
+        </div>
+        <div class="result-dialog hide">
+          <div class="dialog-text">YOU WIN</div>
+          <a href="#" class="play-btn">PLAY AGAIN</a>
+        </div>
+        <div class="user-contain">
+          <div class="user-text">THE HOUSE PICKED</div>
+          <div class="user-container">
+            <div class="user-empty"></div>
+            <div class="user-img-contain" id="computer-img-contain">
+              <!-- <img src="images/icon-rock.svg" alt="" class="user-img"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="#" class="rule-btn">RULES</a>
+    </div>
+  </div>
+  <div class="rule-alert hide">
+    <div class="rule-container">
+      <div class="rule-header">
+        <div class="rule-text">RULES</div>
+        <img src="images/icon-close.svg" alt="Close Icon" class="rule-cancel">
+      </div>
+      <div class="rule-img-contain">
+        <img src="images/image-rules.svg" alt="" class="rule-img">
+      </div>
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="js/main.js"></script>
+</body>
+</html>
