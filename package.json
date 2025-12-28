@@ -1,0 +1,8 @@
+{
+  "name": "rock-paper-scissors-master",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors game",
+  "engines": {
+    "node": ">=24.x"
+  }
+}
